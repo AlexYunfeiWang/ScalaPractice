@@ -35,5 +35,9 @@ object DataTypes extends App{
   val charValue:Char = 'D';
   val void:Unit = ();
 
+  //create a null value
+  var nullValue:String = _;
+
   println("This is void: " + void);
+  println("This is null value: " + nullValue);
 }
