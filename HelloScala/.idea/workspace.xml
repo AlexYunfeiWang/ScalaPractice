@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3525b055-d6cb-4215-88b7-b67c1eeaa875" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_06/HelloScalaWithArguments.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_06/HelloScalaWithArguments.scala" afterDir="false" />
-    </list>
+    <list default="true" id="3525b055-d6cb-4215-88b7-b67c1eeaa875" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -30,8 +28,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_06/HelloScalaWithArguments.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_07/HelloScalaWithArgumentsDebug.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
               <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
@@ -42,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.7-sources.jar!/scala/App.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-141">
-              <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+            <state relative-caret-position="760">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
             </state>
           </provider>
         </entry>
@@ -68,6 +75,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_04/HelloScala.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_05/HelloScalaMain.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_06/HelloScalaWithArguments.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_07/HelloScalaWithArgumentsDebug.scala" />
       </list>
     </option>
   </component>
@@ -117,6 +125,24 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="one" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HelloScala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloScala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="one" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial_06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloScala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloScala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="one" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial_07" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -125,7 +151,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557445008365" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557445685054" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -139,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HelloScalaWithArguments">
+  <component name="RunManager" selected="Application.HelloScalaWithArgumentsDebug">
     <configuration name="HelloScala" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.allaboutscala.chapter.one.tutorial_04.HelloScala" />
       <module name="HelloScala" />
@@ -173,6 +199,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.allaboutscala.chapter.one.tutorial_06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloScalaWithArgumentsDebug" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.allaboutscala.chapter.one.tutorial_07.HelloScalaWithArgumentsDebug" />
+      <module name="HelloScala" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;1st Argument&quot; 2nd Argument 3rdArgument" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allaboutscala.chapter.one.tutorial_07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,9 +271,11 @@
       <item itemvalue="Application.HelloScala" />
       <item itemvalue="Application.HelloScalaMain" />
       <item itemvalue="Application.HelloScalaWithArguments" />
+      <item itemvalue="Application.HelloScalaWithArgumentsDebug" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloScalaWithArgumentsDebug" />
         <item itemvalue="Application.HelloScalaWithArguments" />
         <item itemvalue="Application.HelloScala" />
         <item itemvalue="Application.HelloScalaMain" />
@@ -293,14 +335,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1098" height="1938" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24951077" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24951077" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32994923" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" />
@@ -310,8 +351,8 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32994923" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3998872" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32994923" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3998872" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -337,6 +378,18 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_07/HelloScalaWithArgumentsDebug.scala</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_07/HelloScalaWithArgumentsDebug.scala</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -355,14 +408,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.7-sources.jar!/scala/App.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_06/HelloScalaWithArguments.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-141">
-          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        <state relative-caret-position="450">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_06/HelloScalaWithArguments.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.7-sources.jar!/scala/App.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/chapter/one/tutorial_07/HelloScalaWithArgumentsDebug.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
