@@ -36,6 +36,14 @@ object HowToUseRange {
 
     val arrayFrom1To5 = (1 to 5).toArray
     println(s"Range to array = ${arrayFrom1To5.mkString(",")}")
+
+    println("\nUse foreach to print array")
+    arrayFrom1To5.foreach(println(_))
+
+    println("\nUse for loop to print array")
+    for (element <- arrayFrom1To5) {
+      print(s"$element;")
+    }
   }
 
 }
